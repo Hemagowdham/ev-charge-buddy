@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# ⚡ EV Charge Buddy
+Your ultimate companion for finding and managing EV charging stations.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**EV charge buddy** is a mobile application for finding the nearest Electric Vehicle charging station quickly and effortlessly. This application allows user to explore nearby EV charge bunks along with bunk address details and map reference.
 
-## Get started
+## 🚗 Features
 
-1. Install dependencies
+- 🔍 **Find Nearby Stations:** Enter your area and city to get a list of nearby EV charging stations.
+- 🕒 **Real-time Availability:** Check station availability at a glance.
+- 💰 **Transparent Pricing:** Compare rates to choose the best option.
+- 🌟 **User Reviews:** Make informed decisions with community feedback.
 
-   ```bash
-   npm install
-   ```
+## ⚛️ Tools and Technologies 
 
-2. Start the app
+- **IDE:**
+  Visual Studio Code
+  
+- **Frontend:**  
+  React Native, React, Expo-Router, CSS
 
-   ```bash
-    npx expo start
-   ```
+- **Backend:**  
+  Firebase Firestore (Database), Firebase Authentication
 
-In the output, you'll find options to open the app in a
+## 📋 Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+**Step 1:** Clone the repository
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### `git clone https://github.com/Hemagowdham/ev-charge-buddy.git`
 
-## Get a fresh project
+### `cd ev-charge-buddy`
 
-When you're ready, run:
+**Step 2:** Install dependencies using npm install
 
-```bash
-npm run reset-project
-```
+**Step 3:** Runs the app in development mode.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### `npx expo start`
 
-## Learn more
+**Step 4:** Runs the app on Android Emulator. Intall Android Studio and required software.
 
-To learn more about developing your project with Expo, look at the following resources:
+### `npm run android`
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📸 Project Screenshots
 
-## Join the community
 
-Join our community of developers creating universal apps.
+![image](https://github.com/user-attachments/assets/53b37b8a-78d0-4793-a316-a33e255981ae)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+![image](https://github.com/user-attachments/assets/453a9ab0-224c-4383-a39d-b336325f5b06)
+
+![image](https://github.com/user-attachments/assets/e0158807-25ef-4f59-9ca0-ec374808f8b9)
+
+![image](https://github.com/user-attachments/assets/96ab1b96-244d-4463-b8f7-cee3da500c16)
+
+
+
+
+
+
