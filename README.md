@@ -19,7 +19,7 @@ Your ultimate companion for finding and managing EV charging stations.
   React Native, React, Expo-Router, CSS
 
 - **Backend:**  
-  Firebase Firestore (Database), Firebase Authentication
+  Firebase Firestore (Database)
 
 ## 📋 Installation
 
