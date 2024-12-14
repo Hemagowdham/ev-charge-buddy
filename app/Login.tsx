@@ -1,8 +1,16 @@
 import { TextInput, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { useState } from 'react';
 
-export default function Home() {
+export default function Login() {
+
+    const [usermail, setUsermail] = useState("");
+    const [userpassword, setuserpassword] = useState("");
+
+    const handleLogin = () => {
+
+    };
 
     return (
       <ThemedView>
@@ -29,6 +37,28 @@ export default function Home() {
           Welcome to <ThemedText type="defaultSemiBold">EV Charge Buddy</ThemedText>, I'm your companion for finding nearby electric vehicle charging stations quickly and effortlessly. 
         </ThemedText>
       </ThemedView>
+
+      {/* Login credentials */}
+      <TextInput
+        style={{height: 40, padding: 5}}
+        placeholder="Email"
+        onChangeText={text => setUsermail(text)}
+        defaultValue={usermail}
+      />
+
+      <TextInput
+        style={{height: 40, padding: 5}}
+        placeholder="Password"
+        onChangeText={text => setuserpassword(text)}
+        secureTextEntry
+        defaultValue={userpassword}
+      />
+
+      <TouchableOpacity onPress={handleLogin}>
+        <ThemedText style={styles.button}>
+          Login with Google
+        </ThemedText>
+      </TouchableOpacity>
       
     </ThemedView>
     );
